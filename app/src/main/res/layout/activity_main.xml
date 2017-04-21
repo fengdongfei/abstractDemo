@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.feng.abstractdemo.MainActivity">
+
+    <TextView
+        android:padding="20dp"
+        android:onClick="add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add!" />
+    <TextView
+        android:padding="20dp"
+        android:onClick="del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="del!" />
+    <TextView
+        android:padding="20dp"
+        android:onClick="update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update!" />
+    <TextView
+        android:padding="20dp"
+        android:onClick="find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="find!" />
+
+    <TextView
+        android:padding="20dp"
+        android:onClick="get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get!" />
+</LinearLayout>
